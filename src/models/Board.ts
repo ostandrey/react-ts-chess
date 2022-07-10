@@ -72,10 +72,10 @@ export class Board {
         new Rook(Colors.BLACK, this.getCell(7, 0));
     }
     private addBishops() {
-        new Bishop(Colors.WHITE, this.getCell(2, 0));
-        new Bishop(Colors.BLACK, this.getCell(2, 7));
-        new Bishop(Colors.WHITE, this.getCell(5, 0));
-        new Bishop(Colors.BLACK, this.getCell(5, 7));
+        new Bishop(Colors.WHITE, this.getCell(2, 7));
+        new Bishop(Colors.BLACK, this.getCell(2, 0));
+        new Bishop(Colors.WHITE, this.getCell(5, 7));
+        new Bishop(Colors.BLACK, this.getCell(5, 0));
     }
 
     // public addFisherFigures() {
